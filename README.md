@@ -17,3 +17,16 @@ Basic to advance JS training for beginners.<br />
 => do the tasks one by one, if any problem, any question, any suggestion, most welcome every time.<br />
 => at the end of this course you will have your own javascript self written book with all examples and exercises solved by self.<br />
 => you will need to write a short definition of each topic and then solve examples for that topic.<br />
+# Javascript Course outline:
+# Chapter 1:
+1)What is Javascript?<br />
+2)Setting development environment(node + vscode + live server).<br />
+3)case-sensitive(let a, let A).<br />
+4)Identifiers,Statements(Start with character,camel Notation,_$,0-9),(ends with ;).<br />
+5)printing Hello world.(console.log + alert + write + getElementById/Tag) (browser, node).<br />
+6)Comments(// ,/**/).<br />
+7)veriables(var + let + const).<br />
+8)datatypes(number(.NaN. ), string,boolean,null,undefinded, (array,function,object)=>object ) (typeof).<br />
+9)primitives(value type) vs non-primitives(reference type).<br />
+10)Expressions(2*2,2+2).<br />
+11)Keywords & Reserved words<br />

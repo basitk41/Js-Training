@@ -14,4 +14,6 @@ Basic to advance JS training for beginners.<br />
 # Instruction:
 => clone the repo<br />
 => make branch with your own name<br />
-=> do the tasks one by one, if any problem, any question, any suggestion, most welcome every time. 
+=> do the tasks one by one, if any problem, any question, any suggestion, most welcome every time.<br />
+=> at the end of this course you will have your own javascript self written book with all examples and exercises solved by self.<br />
+=> you will need to write a short definition of each topic and then solve examples for that topic.<br />

@@ -30,3 +30,14 @@ Basic to advance JS training for beginners.<br />
 9)primitives(value type) vs non-primitives(reference type).<br />
 10)Expressions(2*2,2+2).<br />
 11)Keywords & Reserved words<br />
+# Chapter 2:
+Variables:<br />
+1)Variables declaration(var ,let,const ,let a; ).<br />
+2)undefined vs undeclared variables(console.log(a),console.log(b)).<br />
+3)Global vs Local variables<br />
+4)variable shadowing(global/local with same name).<br />
+5)accessing global variable in as local(a=1;{a=2;print(a)}).<br />
+6)Non-strict mode(f{a=1;print(a)} print(a)).<br />
+7)Strict mode(“use strict”; ).<br />
+8)variable hoisting(two phases=>parsing, executing)(print(a);let a;)=(let a; print(a);),(print(a);let a=1;)=(let a;print(a);a=1;) => while parsing variable declaration goes to top.<br />
+9)Using let and const keywords (let a;{let b=a;} print(b);=>referenceError),(const pi=3.14;pi=2;=>typeError).<br />

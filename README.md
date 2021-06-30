@@ -87,3 +87,25 @@ Control Flow:
 7)for in<br />
 8)for of<br />
 9)break; continue;<br />
+# Chapter 6:
+Objects:<br />
+1)Object Properties<br />
+2)Object Methods<br />
+3)User-Defined Objects<br /> 
+4)Defining Methods for an Object<br />
+5)The ’this’ Keyword<br />
+6)spread operator<br />
+# Chapter 7:
+Functions:<br />
+1)definition<br />
+2)calling<br />
+3)parameters<br />
+4)rest operator<br />
+5)default value<br />
+6)hoisting => <br />
+declaration: <br />
+function foo() {}<br />
+Expression:<br />
+let bar = function() {}<br />
+7)Arrow functions<br />
+8)Generator functions<br />

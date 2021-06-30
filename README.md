@@ -109,3 +109,29 @@ Expression:<br />
 let bar = function() {}<br />
 7)Arrow functions<br />
 8)Generator functions<br />
+# Chapter 8:
+Arrays:<br />
+1)Array Properties<br />
+2)length<br />
+3)Array Methods<br />
+4)concat ()<br />
+5)every ()<br />
+6)filter ()<br />
+7)forEach ()<br />
+8)indexOf ()<br />
+9)join ()<br />
+10)lastIndexOf ()<br />
+11)map () <br />
+12)pop ()<br />
+13)push ()<br />
+14)reduce () <br />
+15)reduceRight ()<br />
+16)reverse () <br />
+17)shift ()<br />
+18)slice ()<br />
+19)some ()<br />
+20)sort ()<br />
+21)splice () <br />
+22)toString ()<br />
+23)unshift () <br />
+24)spread operator<br />

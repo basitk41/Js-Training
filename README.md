@@ -135,3 +135,119 @@ Arrays:<br />
 22)toString ()<br />
 23)unshift () <br />
 24)spread operator<br />
+# Chapter 9:
+Strings:<br />
+1)String Properties<br />
+2)Length<br />
+3)String Methods<br />
+4)charAt()<br />
+5)charCodeAt ()<br />
+6)contact () <br />
+7)indexOf ()<br />
+8)lastIndexOf () <br />
+9)localeCompare ()<br />
+10)match ()<br />
+11)replace ()<br />
+12)Search ()<br />
+13)slice ()<br />
+14)split ()<br />
+15)substr ()<br />
+16)substring ()<br />
+17)toLocaleLowerCase()<br />
+18)toLocaleUppereCase ()<br /> 
+19)toLowerCase ()<br />
+20)toString ()<br />
+21)toUpperCase () <br />
+22)valueOf ()<br />
+23)anchor()<br />
+24)big()<br />
+25)blink ()<br />
+26)bold ()<br />
+27)fixed ()<br />
+28)fontColor () <br />
+29)fontsize ()<br />
+30)italics () <br />
+31)link ()<br />
+32)small ()<br />
+33)strike ()<br />
+34)sub()<br />
+35)sup ()<br />
+# Chapter 10:
+Math:<br />
+1)abs ()<br />
+2)acos () <br />
+3)asin ( ) <br />
+4)atan ( ) <br />
+5)atan2 ( ) <br />
+6)ceil ( ) <br />
+7)cos ( ) <br />
+8)exp ( )<br />
+9)floor ( )<br />
+10)log ( )<br />
+11)max ( )<br />
+12)min ( ) <br />
+13)pow ( )<br />
+14)random ( )<br />
+15)round ( )<br />
+16)sin ( )<br />
+17)sqrt ( )<br />
+18)tan ( ) <br />
+# Chapter 11:
+Dates:<br />
+1)Date()<br />
+2)getDate()<br />
+3)getDay() <br />
+4)getFullYear()<br />
+5)getHours()<br />
+6)getMilliseconds() <br />
+7)getMinutes ()<br />
+8)getMonth ()<br />
+9)getSeconds ()<br />
+10)getTime ()<br />
+11)getTimezoneOffset ()<br />
+12)getUTCDate ()<br />
+13)getUTCDay ()<br />
+14)getUTCFullYear ()<br />
+15)getUTCHours () <br />
+16)getUTCMilliseconds ()<br />
+17)getUTCMinutes ()<br />
+18)getUTCMonth ()<br />
+19)getUTCSeconds () <br />
+20)getYear () <br />
+21)setDate ()<br />
+22)setFullYear ()<br />
+23)setHours ()<br />
+24)setMilliseconds ()<br />
+25)setMinutes () <br />
+26)setMonth ()<br />
+27)setSeconds ()<br />
+28)setTime ()<br />
+# Chapter 12:
+Numbers:<br />
+1)Number Methods<br />
+2)toExponential ()<br />
+3)toFixed ()<br />
+4)toLocaleString ()<br />
+5)toPrecision ()<br />
+6)toString ()<br />
+7)valueOf ()<br />
+8)parseInt()<br />
+# Chapter 13:
+Destructuring:<br />
+Object: <br />
+let obj = {<br />
+Name:”ali”,<br />
+Age:22<br />
+}<br />
+Let {Name,Age} = obj;<br />
+Array:<br />
+Let arr = [1,2];<br />
+Let [first,second] = arr<br />
+Swapping:<br />
+Let a=1,b=2;<br />
+[b,a]=[a,b];<br />
+# Chapter 14:
+Classes
+# Chapter 15:
+Promises
+# React.js is waiting for you

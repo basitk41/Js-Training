@@ -41,3 +41,26 @@ Variables:<br />
 7)Strict mode(“use strict”; ).<br />
 8)variable hoisting(two phases=>parsing, executing)(print(a);let a;)=(let a; print(a);),(print(a);let a=1;)=(let a;print(a);a=1;) => while parsing variable declaration goes to top.<br />
 9)Using let and const keywords (let a;{let b=a;} print(b);=>referenceError),(const pi=3.14;pi=2;=>typeError).<br />
+# Chapter 3:
+Datatypes:<br />
+1)Primitive: string, number,boolean,null,undefined,symbol=>ES6.<br />
+2)Reference/Non-primitive:complex datatype => object<br />
+3)dynamic/loosly couple language => let a=1;a=true;a=‘Ali’<br />
+4)number, string,boolean<br />
+5)undefined => let a;print(a) => undefined type undefined.<br />
+6)null => let obj =null; typeof obj => object.<br />
+7)null==undefined.<br />
+8)Numbers: integer ,floating , whole=2.0=>2<br />
+9)NaN: let a=‘a’;a/2;<br />
+10)Strings: ‘Ali’ , “Ali” , “it’s okay” , ‘it’s okay’ , ‘it\’ okay’ ,(immutable) let str=‘Ali’; str = str+’ Khan’ (destroying old two, creating new assigning new);<br />
+11)Boolean: let inProgress = true;let completed= false; typeof <br />
+12)Boolean function: Boolean(‘Hi’)=>true;Boolean(‘’)=>false;  Boolean(20)=>true;Boolean(0)=>false; Boolean({name:’Ali’})=>true; Boolean(null)=>false;<br />
+13)Symbol: symbol type<br />
+14)Object: let obj={} , let person={name:’Ali’,age:22}<br />
+15)object inside object: person={name:’Ali’,age:22,address:{house:10,street:20}}<br />
+16)Accessing object properties: dot . Brackets [] =>person.name/person[‘name’]<br />
+17)new keyword: create new Object => let person2 = new person; person2.name = ‘Khan’;<br />
+18)Array: <br />
+19)Function: hi(name) perform a task , return type calculation. <br />
+Summary:6 primitive types:number, string,boolean,null,undefined and symbol<br />
+1 complex type/non-primitive type: object.<br />

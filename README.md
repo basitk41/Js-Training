@@ -64,3 +64,26 @@ Datatypes:<br />
 19)Function: hi(name) perform a task , return type calculation. <br />
 Summary:6 primitive types:number, string,boolean,null,undefined and symbol<br />
 1 complex type/non-primitive type: object.<br />
+# Chapter 4:
+Operators:<br />
+1)Arithmetic => +,-,*,/<br />
+2)Assignment => = , += ,-= ,*= ,/= ,%= <br />
+3)unary => a=+a / ’10’ => 10, a=-a / ’10’ => -10, a=true => a=+a =>1<br />
+4)prefix/postfix increment ++ ,decrement --<br />
+5)difference between ++a & a++ => a=10;b=20; c= a— + b; , c=—a +b;<br />
+6)Comparison => < ,>, <=, >= ,== , != , strict => === ,!==<br />
+7)ternary => a>b?’hi’:’bye’;<br />
+8)Logical => ! => a=null,undefined,!20,!0,false,true / !! , || , &&<br />
+9)truthy falsy => false || true , false || ‘Ali’<br />
+10)Precedence => 2+3*4<br />
+# Chapter 5:
+Control Flow:
+1)if else | ternary ?<br />
+2)switch case<br />
+3)for<br />
+4)while<br />
+5)do while<br />
+6)infinite loops => //i++ in while loop<br />
+7)for in<br />
+8)for of<br />
+9)break; continue;<br />

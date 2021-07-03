@@ -1,14 +1,311 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
     <title>Js-Training</title>
-</head>
-<body>
-    <h1>Welcome to Js-Training!</h1>
-    <p>I Muhammad-essa created a branch!</p>
-</body>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a
+            class="navbar-brand"
+            href="#"
+            style="color: blue; font-weight: bolder; font-size: 30px"
+            >JS Training Version 1.0</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Chapters
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Chapter 1</a></li>
+                  <li><a class="dropdown-item" href="#">Chapter 2</a></li>
+                  <li><a class="dropdown-item" href="#">Chapter 3</a></li>
+                  <li><a class="dropdown-item" href="#">Chapter 4</a></li>
+                  <li><a class="dropdown-item" href="#">Chapter 5</a></li>
+                  <li><a class="dropdown-item" href="#">Chapter 6</a></li>
+                  <li><a class="dropdown-item" href="#">Chapter 7</a></li>
+                  <li><a class="dropdown-item" href="#">Chapter 8</a></li>
+                  <li><a class="dropdown-item" href="#">Chapter 9</a></li>
+                  <li><a class="dropdown-item" href="#">Chapter 10</a></li>
+                  <li><a class="dropdown-item" href="#">Chapter 11</a></li>
+                  <li><a class="dropdown-item" href="#">Chapter 12</a></li>
+                  <li><a class="dropdown-item" href="#">Chapter 13</a></li>
+                  <li><a class="dropdown-item" href="#">Chapter 14</a></li>
+                  <li><a class="dropdown-item" href="#">Chapter 15</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <aside>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-4">
+            <h3 style="text-align: center">Chapters</h3>
+            <div class="list-group" id="list-tab" role="tablist">
+              <a
+                class="list-group-item list-group-item-action active"
+                id="list-home-list"
+                data-bs-toggle="list"
+                href="#list-home"
+                role="tab"
+                aria-controls="list-home"
+                >1. What is <b>JavaScript</b>?</a
+              >
+              <a
+                class="list-group-item list-group-item-action"
+                id="list-profile-list"
+                data-bs-toggle="list"
+                href="#list-profile"
+                role="tab"
+                aria-controls="list-profile"
+                >2. Variables
+              </a>
+              <a
+                class="list-group-item list-group-item-action"
+                id="list-messages-list"
+                data-bs-toggle="list"
+                href="#list-messages"
+                role="tab"
+                aria-controls="list-messages"
+                >3. Datatypes</a
+              >
+              <a
+                class="list-group-item list-group-item-action"
+                id="list-settings-list"
+                data-bs-toggle="list"
+                href="#list-settings"
+                role="tab"
+                aria-controls="list-settings"
+                >4. Operators</a
+              >
+              <a
+                class="list-group-item list-group-item-action"
+                id="list-settings-list"
+                data-bs-toggle="list"
+                href="#list-settings"
+                role="tab"
+                aria-controls="list-settings"
+                >5. Control Flow</a
+              >
+              <a
+                class="list-group-item list-group-item-action"
+                id="list-settings-list"
+                data-bs-toggle="list"
+                href="#list-settings"
+                role="tab"
+                aria-controls="list-settings"
+                >6. Objects</a
+              >
+              <a
+                class="list-group-item list-group-item-action"
+                id="list-settings-list"
+                data-bs-toggle="list"
+                href="#list-settings"
+                role="tab"
+                aria-controls="list-settings"
+                >7. Functions</a
+              >
+              <a
+                class="list-group-item list-group-item-action"
+                id="list-settings-list"
+                data-bs-toggle="list"
+                href="#list-settings"
+                role="tab"
+                aria-controls="list-settings"
+                >8. Arrays</a
+              >
+              <a
+                class="list-group-item list-group-item-action"
+                id="list-settings-list"
+                data-bs-toggle="list"
+                href="#list-settings"
+                role="tab"
+                aria-controls="list-settings"
+                >9. Strings</a
+              >
+              <a
+                class="list-group-item list-group-item-action"
+                id="list-settings-list"
+                data-bs-toggle="list"
+                href="#list-settings"
+                role="tab"
+                aria-controls="list-settings"
+                >10. Math</a
+              >
+              <a
+                class="list-group-item list-group-item-action"
+                id="list-settings-list"
+                data-bs-toggle="list"
+                href="#list-settings"
+                role="tab"
+                aria-controls="list-settings"
+                >11. Dates</a
+              >
+              <a
+                class="list-group-item list-group-item-action"
+                id="list-settings-list"
+                data-bs-toggle="list"
+                href="#list-settings"
+                role="tab"
+                aria-controls="list-settings"
+                >12. Numbers</a
+              >
+              <a
+                class="list-group-item list-group-item-action"
+                id="list-settings-list"
+                data-bs-toggle="list"
+                href="#list-settings"
+                role="tab"
+                aria-controls="list-settings"
+                >13. Destructuring</a
+              >
+              <a
+                class="list-group-item list-group-item-action"
+                id="list-settings-list"
+                data-bs-toggle="list"
+                href="#list-settings"
+                role="tab"
+                aria-controls="list-settings"
+                >14. Classes</a
+              >
+              <a
+                class="list-group-item list-group-item-action"
+                id="list-settings-list"
+                data-bs-toggle="list"
+                href="#list-settings"
+                role="tab"
+                aria-controls="list-settings"
+                >15. Promises</a
+              >
+            </div>
+          </div>
+          <div class="col-8">
+            <h3>&nbsp;</h3>
+            <div class="tab-content" id="nav-tabContent">
+              <div
+                class="tab-pane fade show active"
+                id="list-home"
+                role="tabpanel"
+                aria-labelledby="list-home-list"
+              >
+                <h2>What is JavaScript?</h2>
+                <p style="text-align: left">
+                  <b>JavaScript</b> is the world's most popular programming
+                  language.<br />
+                  <b>JavaScript</b> is the programming language of the Web.<br />
+                  <b>JavaScript</b> is easy to learn.<br />
+                  This training will teach you <b>JavaScript</b> from basic to
+                  advanced.
+                </p>
+                <p style="text-align: left">
+                  <b>JavaScript</b> is a scripting or programming language that
+                  allows you to implement complex features on web pages — every
+                  time a web page does more than just sit there and display
+                  static information for you to look at — displaying timely
+                  content updates, interactive maps, animated 2D/3D graphics,
+                  scrolling video jukeboxes, etc. — you can bet that
+                  <b>JavaScript</b> is probably involved. It is the third layer
+                  of the layer cake of standard web technologies, two of which
+                  (HTML and CSS) we have covered in much more detail in other
+                  parts of the Learning Area. <br /><br /><b>HTML</b> is the
+                  markup language that we use to structure and give meaning to
+                  our web content, for example defining paragraphs, headings,
+                  and data tables, or embedding images and videos in the page.
+                  <br /><br /><b>CSS</b> is a language of style rules that we
+                  use to apply styling to our HTML content, for example setting
+                  background colors and fonts, and laying out our content in
+                  multiple columns.<br /><br />
+                  <b><b>JavaScript</b></b> is a scripting language that enables
+                  you to create dynamically updating content, control
+                  multimedia, animate images, and pretty much everything else.
+                  (Okay, not everything, but it is amazing what you can achieve
+                  with a few lines of <b>JavaScript</b> code.)
+                </p>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="list-profile"
+                role="tabpanel"
+                aria-labelledby="list-profile-list"
+              >
+                ...
+              </div>
+              <div
+                class="tab-pane fade"
+                id="list-messages"
+                role="tabpanel"
+                aria-labelledby="list-messages-list"
+              >
+                ...
+              </div>
+              <div
+                class="tab-pane fade"
+                id="list-settings"
+                role="tabpanel"
+                aria-labelledby="list-settings-list"
+              >
+                ...
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </aside>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
 </html>

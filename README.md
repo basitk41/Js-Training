@@ -1,5 +1,6 @@
 # Js-Training
 Basic to advance JS training for beginners.<br />
+Link to book: https://basitk41.github.io/Js-Training/index.html
 # Basic git commands:
 => git clone repo-path  —> cloning repo locally<br />
 => git branch  —> checking branches and current branch<br />

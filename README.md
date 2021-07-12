@@ -250,5 +250,8 @@ Let a=1,b=2;<br />
 # Chapter 14:
 Classes
 # Chapter 15:
-Promises
+Promises <br />
+Callbacks <br />
+Async/Await <br />
+
 # React.js is waiting for you

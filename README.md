@@ -253,6 +253,7 @@ Classes
 Promises <br />
 Callbacks <br />
 Async/Await <br />
+Modules <br />
 # Exercises:
 # Exercise 1
 Swapping variable's values:</br>

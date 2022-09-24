@@ -254,6 +254,7 @@ Promises <br />
 Callbacks <br />
 Async/Await <br />
 Modules <br />
+localStorage <br />
 # Exercises:
 # Exercise 1
 Swapping variable's values:</br>
